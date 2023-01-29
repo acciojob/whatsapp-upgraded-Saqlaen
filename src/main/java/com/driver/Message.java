@@ -56,9 +56,6 @@ public class Message {
 		super();
 		this.id = id;
 		this.content = content;
-		this.timestamp = timestamp;
-		this.group = group;
-		this.msgSender = msgSender;
 	}
 
 }

@@ -30,12 +30,13 @@ public class Group {
 		return "Group [name=" + name + ", numberOfParticipants=" + numberOfParticipants + ", groupMembers="
 				+ groupMembers + "]";
 	}
+	
 	public Group(String name, int numberOfParticipants, List<User> groupMembers) {
 		super();
 		this.name = name;
 		this.numberOfParticipants = numberOfParticipants;
-		this.groupMembers = groupMembers;
 	}
+	
 	public List<User> getGroupMembers() {
 		return groupMembers;
 	}
