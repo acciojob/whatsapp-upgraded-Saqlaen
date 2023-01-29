@@ -31,6 +31,7 @@ public class WhatsappService {
 			throw new Exception("User already exists");
 		}
 		
+		
 		return "SUCCESS";
 	}
 
@@ -233,7 +234,7 @@ public class WhatsappService {
 		usersGroup.setGroupMembers(listOfPeopleInGroup);
 		usersGroup.setGrpMessages(messageList);
 		int total = listOfPeopleInGroup.size() + messageList.size() + messageHashMap.size();
-		messageCount--;
+//		messageCount--;
 		return total;
 	}
 
