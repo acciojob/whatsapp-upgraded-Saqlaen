@@ -52,7 +52,7 @@ public class Message {
 	public Message() {
 		super();
 	}
-	public Message(int id, String content, Date timestamp, Group group, User msgSender) {
+	public Message(int id, String content) {
 		super();
 		this.id = id;
 		this.content = content;

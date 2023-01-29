@@ -31,7 +31,7 @@ public class Group {
 				+ groupMembers + "]";
 	}
 	
-	public Group(String name, int numberOfParticipants, List<User> groupMembers) {
+	public Group(String name, int numberOfParticipants) {
 		super();
 		this.name = name;
 		this.numberOfParticipants = numberOfParticipants;
